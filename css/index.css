@@ -262,6 +262,13 @@ h1 {
     -webkit-animation:fade 3000ms infinite;
 }
 
+.ui-page {
+	background:#2d2d2d !important;
+}
+.ui-input-text {
+	background-color: transparent !important;
+	border:0px !important;
+}
 
 
 .carregando {
@@ -290,7 +297,7 @@ h1 {
 }
 
 .topo .logotipo {
-	background:#FFF;
+	background:#ABCE43;
 	text-align:center;
 	padding:15px 10px 10px 10px;
 	text-shadow: none;
