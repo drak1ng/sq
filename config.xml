@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap = "http://phonegap.com/ns/1.0"
-	id        = "br.com.webside.gabriel"
+	id        = "br.com.webside.sonoquality"
 	versionCode="107" 
 	version   = "1.0.7">
-	<name>Gabriel Design District</name>
+	<name>Sono Quality</name>
 	<description>
-		Gabriel Design District
+		Sono Quality
 	</description>
 
 	<author href="http://webside.com.br" email="contato@webside.com.br">
@@ -124,11 +124,6 @@
 
 <gap:plugin name="cordova-plugin-dialogs" source="npm"  />
 <gap:plugin name="cordova-plugin-device" source="npm" />
-
-<gap:plugin name="cordova-plugin-facebook" source="npm">
-	<param name="FACEBOOK_APP_ID" value="385435218538992" />
-	<param name="FACEBOOK_DISPLAY_NAME" value="Gabriel Design District" />
-</gap:plugin>
 
 <plugin name="cordova-plugin-media-capture" source="npm" spec="*">
   <variable name="CAMERA_USAGE_DESCRIPTION" value="App would like to access the camera." />
