@@ -59,11 +59,14 @@
 					if(email==""){ alert("O campo E-mail deve ser preenchido"); return false; }
 					
 					$.get("http://sonoquality.projetotemporario.com.br/app_api/esqueci-minha-senha.php", { email:email }, function(data){
+						alert(data);
+						/*
 						if(data=="ERRO_EMAIL"){
 							alert("Não foi encontrado nenhum cadastro com esse E-mail!");
 						}else{
 							$.mobile.changePage("esqueci_minha_senha_obrigado.html", { transition: "fade", changeHash: false });
 						}
+						*/
 					});
 					
 				});
