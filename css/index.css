@@ -67,145 +67,9 @@ body {
 .menu-container-caixa-menu4	{ font-family:'roboto'; margin:0px auto; width:140px; padding:12px 0px 12px 45px; background:url(../img/008.png) left center no-repeat; background-size:30px; text-transform:none; }
 .menu-container-caixa-menu5	{ font-family:'roboto'; margin:0px auto; width:140px; padding:12px 0px 12px 45px; background:url(../img/009.png) left center no-repeat; background-size:30px; text-transform:none; }
 
-.topo2				{ width:100%; height:80px; position:fixed; top:0px; left:0px; background:#FFF; }
-.topo2-logo			{ width:60px; margin-top:10px; margin-left:10px; float:left; }
-.topo2-menu			{ width:60px; height:60px; margin-top:10px; float:right; background:url(../img/010.png) center center no-repeat; background-size:40px; margin-right:10px; }
-.topo2-categorias	{ width:60px; height:60px; margin-top:10px; float:right; background:url(../img/020.png) center center no-repeat; background-size:30px; }
-.topo2-rua			{ width:60px; height:60px; margin-top:10px; float:right; background:url(../img/011.png) center center no-repeat; background-size:40px; }
 .conteudo			{ margin-top:35px; padding:20px 10px; text-transform:none; font-family:'roboto'; text-align:left; font-size:15px; font-weight:300; line-height:24px; }
 
 .page				{ background:#FFF !important; }
-
-.categorias				{ height:140px; background:#ebebeb; }
-.categorias-box			{ height:140px; background-color:rgba(0,0,0,0.4); }
-.categorias-titulo		{ text-align:center; color:#FFF; padding-top:50px; font-size:24px; font-weight:600; text-shadow: 0 0 5px #000000; }
-.categorias-quantidade	{ text-align:center; color:#FFF; text-shadow: 0 0 5px #000000; }
-
-.lista-empresas			{ width:50%; height:190px; float:left; text-align:center; margin:0px; padding:0px; border:0px; margin-top:10px; }
-.lista-empresas-foto	{ width:120px; height:120px; margin:0px auto; border-radius:100px; background:center center no-repeat #000; background-size:cover; -webkit-box-shadow:inset 0 0 0 1px rgba(0,0,0,0.2); box-shadow:inset 0 0 0 1px rgba(0,0,0,0.2); }
-.lista-empresas-nome	{ padding:10px; }
-
-.lista-empresas-par			{ width:100%; height:190px; text-align:center; margin:0px; padding:0px; border:0px; margin-top:10px; background:url(../img/022.png) calc(50% - 46px) 66px no-repeat; }
-.lista-empresas-par .lista-empresas { float:left; }
-.lista-empresas-par .lista-empresas-foto		{ border:5px solid #FFF; }
-
-.lista-empresas-impar		{ width:100%; height:190px; text-align:center; margin:0px; padding:0px; border:0px; margin-top:10px; background:url(../img/023.png) calc(50% + 46px) 66px no-repeat; }
-.lista-empresas-impar .lista-empresas { float:right; }
-.lista-empresas-impar .lista-empresas-foto		{ border:5px solid #FFF; }
-
-.eventos-lista				{ padding:10px 10px 10px 60px; background:url(../img/013.png) 15px 12px no-repeat; background-size:30px; }
-.eventos-lista-data			{ font-size:13px; font-weight:600; }
-.eventos-lista-titulo		{ font-family:15px; }
-.evento-interno-titulo		{ font-size:16px; font-weight:600; color:#000; text-transform:uppercase; padding-bottom:10px; }
-.evento-interno-texto		{ font-size:15px; font-weight:300; color:#000; line-height:24px; text-align:justify; }
-
-.mensagens-lista			{ padding:10px 10px 10px 60px; background:url(../img/014.png) 10px 15px no-repeat; background-size:40px; font-family:15px; }
-.mensagens-lista-empresa	{ font-size:13px; font-weight:600; }
-
-.mensagens-conversa							{ position:fixed; left:0px; top:40px; width:calc(100% - 30px); height:calc(100% - 80px); overflow:scroll; padding:0px 15px; }
-.mensagens-conversa-outros					{ width:80%; float:right; border:1px solid #000; border-radius:6px; color:#000; padding:10px; font-size:15px; margin-bottom:10px; }
-.mensagens-conversa-outros span				{ display:block; font-weight:600; font-size:12px; }
-.mensagens-conversa-meu						{ width:80%; float:left; border:1px solid #004F68; border-radius:6px; color:#004F68; padding:10px; font-size:15px; margin-bottom:10px; }
-.mensagens-conversa-meu span				{ display:block; font-weight:600; font-size:12px; }
-.mensagens-formulario						{ position:fixed; left:0px; bottom:0px; width:100%; border-top:1px solid #000; height:40px; }
-.mensagens-formulario input[type=text]		{ width:calc(100% - 80px); border:0px; background:none; font-weight:300; float:left; padding:10px 5px; font-size:15px; outline:none; }
-.mensagens-formulario input[type=submit]	{ width:70px; border:0px; background:none; font-weight:600; text-align:center; float:right; padding:10px 0px; font-size:15px; outline:none; }
-
-.orcamentos-lista			{ padding:10px 10px 10px 60px; background:url(../img/014.png) 10px 15px no-repeat; background-size:40px; font-family:15px; }
-.orcamentos-lista-empresa	{ font-size:13px; font-weight:600; }
-
-.orcamentos-conversa						{ position:fixed; left:0px; top:40px; width:calc(100% - 30px); height:calc(100% - 80px); overflow:scroll; padding:0px 15px; }
-.orcamentos-conversa-outros					{ width:80%; float:right; border:1px solid #000; border-radius:6px; color:#000; padding:10px; font-size:15px; margin-bottom:10px; }
-.orcamentos-conversa-outros span			{ display:block; font-weight:600; font-size:12px; }
-.orcamentos-conversa-meu					{ width:80%; float:left; border:1px solid #004F68; border-radius:6px; color:#004F68; padding:10px; font-size:15px; margin-bottom:10px; }
-.orcamentos-conversa-meu span				{ display:block; font-weight:600; font-size:12px; }
-.orcamentos-formulario						{ position:fixed; left:0px; bottom:0px; width:100%; border-top:1px solid #000; height:40px; }
-.orcamentos-formulario input[type=text]		{ width:calc(100% - 80px); border:0px; background:none; font-weight:300; float:left; padding:10px 5px; font-size:15px; outline:none; }
-.orcamentos-formulario input[type=submit]	{ width:70px; border:0px; background:none; font-weight:600; text-align:center; float:right; padding:10px 0px; font-size:15px; outline:none; }
-
-.empresa-ficha										{ padding:0px 15px; }
-.empresa-ficha-foto									{ width:100px; height:100px; float:left; background:center center no-repeat #ebebeb; background-size:cover; border-radius:200px; -webkit-box-shadow:inset 0 0 0 1px rgba(0,0,0,0.2); box-shadow:inset 0 0 0 1px rgba(0,0,0,0.2); }
-.empresa-ficha-info									{ margin-left:120px }
-.empresa-ficha-info-titulo							{ font-size:20px; font-weight:600; }
-.empresa-ficha-info-titulo span						{ font-size:13px; font-weight:300; display:block; }
-.empresa-ficha-info-favorito						{ width:30px; height:54px; float:left; background:url(../img/015.png) center center no-repeat; background-size:30px; margin-right:10px; }
-.empresa-ficha-info-favorito-on						{ width:30px; height:54px; float:left; background:url(../img/015_on.png) center center no-repeat; background-size:30px; margin-right:10px; }
-.empresa-ficha-info-mensagem						{ width:30px; height:54px; float:left; background:url(../img/016.png) center center no-repeat; background-size:30px; margin-right:10px; }
-.empresa-ficha-info-orcamento						{ width:100px; float:left; border:1px solid #CCC;  text-align:center; padding:3px 0px; color:#777; font-size:14px; border-radius:6px; margin-top:10px; margin-left:10px; }
-.empresa-ficha-info-horario-atendimento				{ font-weight:600; padding-top:20px; }
-
-.empresa-ficha-texto								{ padding:10px 0px; }
-
-.empresa-ficha-360									{ width:40px; height:40px; float:right; background:url(../img/026.png) center center no-repeat; background-size:contain; margin-top:-8px; }
-.empresa-ficha-360-caixa							{ display:none; width:100%; height:calc(100% - 180px); position:fixed; top:200px; left:0px;'><iframe style='border-width: 0px; border-style: initial; border-color: initial; }
-.empresa-ficha-360-caixa-btfechar					{ margin-top:-20px; float:right; padding:5px 30px; color:#FFF; background:#000; }
-
-.empresa-ficha-abas									{ padding-top:10px; }
-.empresa-ficha-abas-1								{ font-weight:600; background:#ebebeb; padding:7px 10px; border-radius:6px; min-width:10px; float:left; }
-.empresa-ficha-abas-2								{ font-weight:300; background:none; padding:7px 10px; border-radius:6px; min-width:10px; float:left; }
-
-.empresa-ficha-galerias								{ padding-top:15px; }
-.empresa-ficha-galeria-bloco						{ height:200px; }
-.empresa-ficha-galeria-bloco-imagem					{ height:150px; border-radius:6px; background:center center no-repeat #ebebeb; background-size:cover; -webkit-box-shadow:inset 0 0 0 1px rgba(0,0,0,0.2); box-shadow:inset 0 0 0 1px rgba(0,0,0,0.2); }
-.empresa-ficha-galeria-bloco-titulo					{ width:calc(100% - 40px); float:left; padding-top:8px; font-size:15px; color:#000; font-weight:600; }
-.empresa-ficha-galeria-bloco-gostei					{ width:30px; height:40px; float:right; background:url(../img/015.png) center center no-repeat; background-size:30px; margin-right:10px; }
-.empresa-ficha-galeria-bloco-gostei-on				{ width:30px; height:40px; float:right; background:url(../img/015_on.png) center center no-repeat; background-size:30px; margin-right:10px; }
-
-.empresa-ficha-feeds								{ padding-top:15px; display:none; }
-.empresa-ficha-feeds-bloco							{ padding-bottom:30px; }
-.empresa-ficha-feeds-bloco-imagem					{ margin:0px -15px; }
-.empresa-ficha-feeds-bloco-imagem img				{ width:100% !important; height:auto !important; }
-.empresa-ficha-feeds-bloco-titulo-remover			{ width:40px; height:50px; float:right; background:url(../img/018.png) center center no-repeat; background-size:30px; }
-.empresa-ficha-feeds-bloco-titulo					{ padding-bottom:10px; }
-.empresa-ficha-feeds-bloco-titulo-imagem			{ width:50px; height:50px; float:left; background:center center no-repeat #ebebeb; background-size:cover; border-radius:100px; -webkit-box-shadow:inset 0 0 0 1px rgba(0,0,0,0.2); box-shadow:inset 0 0 0 1px rgba(0,0,0,0.2); }
-.empresa-ficha-feeds-bloco-titulo-texto				{ margin-left:60px; margin-right:0px; font-size:18px; font-weight:600; padding-top:4px; }
-.empresa-ficha-feeds-bloco-titulo-texto span		{ display:block; font-size:13px; font-weight:300; }
-.empresa-ficha-feeds-bloco-texto					{ font-size:14px; line-height:20px; padding-top:0px; }
-.empresa-ficha-feeds-bloco-gostei					{ width:30px; height:30px; float:right; background:url(../img/015.png) center center no-repeat; background-size:30px; margin-right:0px; margin-bottom:5px; }
-.empresa-ficha-feeds-bloco-gostei-on				{ width:30px; height:30px; float:right; background:url(../img/015_on.png) center center no-repeat; background-size:30px; margin-right:0px; margin-bottom:5px; }
-.empresa-ficha-feeds-bloco-favoritos				{ width:30px; height:30px; float:right; background:url(../img/024.png) center center no-repeat; background-size:26px; margin-right:0px; margin-bottom:5px; }
-.empresa-ficha-feeds-bloco-orcamento				{ width:30px; height:30px; float:right; background:url(../img/025.png) center center no-repeat; background-size:26px; margin-right:0px; margin-bottom:5px; }
-
-.empresa-ficha-catalogos							{ padding-top:15px; display:none; }
-.empresa-ficha-catalogos-bloco						{ margin:5px 0px; padding:15px; height:20px; color:#000; border:1px solid #000; }
-.empresa-ficha-catalogos-bloco-imagem				{ float:right; }
-.empresa-ficha-catalogos-bloco-texto				{ float:left; }
-
-.empresa-ficha-promocoes							{ padding-top:15px; display:none; }
-
-.favoritos-ficha-cadastro							{ width:100%; height:100%; position:fixed; top:0px; left:0px; z-index:99999; background-color:rgba(0,0,0,0.7); display:none; }
-.favoritos-ficha-cadastro-caixa						{ width:280px; height:170px; position:fixed; top:50%; left:50%; margin:-200px 0px 0px -150px; background:#FFF; border-radius:6px; padding:10px; }
-
-.favoritos-ficha-cadastro-usuario					{ width:100%; height:100%; position:fixed; top:0px; left:0px; z-index:99999; background-color:rgba(0,0,0,0.7); display:none; }
-.favoritos-ficha-cadastro-usuario-caixa				{ width:280px; height:170px; position:fixed; top:50%; left:50%; margin:-200px 0px 0px -150px; background:#FFF; border-radius:6px; padding:10px; }
-
-.eventos-ficha-cadastro								{ width:100%; height:100%; position:fixed; top:0px; left:0px; z-index:99999; background-color:rgba(0,0,0,0.7); display:none; }
-.eventos-ficha-cadastro-caixa						{ width:280px; height:366px; position:fixed; top:50%; left:50%; margin:-200px 0px 0px -150px; background:#FFF; border-radius:6px; padding:10px; }
-
-.empresa-ficha-contato								{ width:100%; height:100%; position:fixed; top:0px; left:0px; z-index:99999; background-color:rgba(0,0,0,0.7); display:none; }
-.empresa-ficha-contato-caixa						{ width:280px; height:400px; position:fixed; top:50%; left:50%; margin:-200px 0px 0px -150px; background:#FFF; border-radius:6px; padding:10px; }
-
-.empresa-ficha-orcamento							{ width:100%; height:100%; position:fixed; top:0px; left:0px; z-index:99999; background-color:rgba(0,0,0,0.7); display:none; }
-.empresa-ficha-orcamento-caixa						{ width:280px; height:454px; position:fixed; top:50%; left:50%; margin:-200px 0px 0px -150px; background:#FFF; border-radius:6px; padding:10px; }
-
-.empresa-ficha-favoritos							{ width:100%; height:100%; position:fixed; top:0px; left:0px; z-index:99999; background-color:rgba(0,0,0,0.7); display:none; }
-.empresa-ficha-favoritos-caixa						{ width:280px; height:454px; position:fixed; top:50%; left:50%; margin:-200px 0px 0px -150px; background:#FFF; border-radius:6px; padding:10px; }
-
-.home-foto-postagem									{ width:100%; height:100%; position:fixed; top:0px; left:0px; z-index:99999; background-color:rgba(0,0,0,0.7); display:none; }
-.home-foto-postagem-caixa							{ width:280px; height:184px; position:fixed; top:50%; left:50%; margin:-135px 0px 0px -150px; background:#FFF; border-radius:6px; padding:10px; }
-
-.sobre-galeria-novo									{ width:100%; height:100%; position:fixed; top:0px; left:0px; z-index:99999; background-color:rgba(0,0,0,0.7); display:none; }
-.sobre-galeria-novo-caixa							{ width:280px; height:170px; position:fixed; top:50%; left:50%; margin:-85px 0px 0px -150px; background:#FFF; border-radius:6px; padding:10px; }
-
-.sobre-feeds-bloco									{ padding:5px 0px; }
-.sobre-feeds-bloco-imagem							{ width:80px; height:80px; float:left; background:center center no-repeat #ebebeb; background-size:cover; -webkit-box-shadow:inset 0 0 0 1px rgba(0,0,0,0.2); box-shadow:inset 0 0 0 1px rgba(0,0,0,0.2); border:4px; }
-.sobre-bloco-titulo									{ margin:10px 50px 10px 90px; text-align:left; font-size:15px; color:#000; }
-.sobre-bloco-remover								{ width:40px; height:80px; float:right; background:url(../img/018.png) center center no-repeat; background-size:30px; }
-
-.catalogo-bloco-titulo								{ margin:10px 50px 10px 0px; text-align:left; font-size:15px; color:#000; }
-.catalogo-bloco-remover								{ width:40px; height:80px; float:right; background:url(../img/018.png) center center no-repeat; background-size:30px; }
-
-.btfoto												{ background:url(../img/019.png) center center no-repeat #000; background-size:30px; border-radius:100px; width:60px; height:60px; position:fixed; bottom:10px; right:10px; -webkit-box-shadow: 0 2px 10px 0 rgba(0,0,0,0.2); box-shadow: 0 2px 10px 0 rgba(0,0,0,0.2); }
 
 /* Landscape layout (with min-width) */
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
@@ -263,7 +127,8 @@ h1 {
 }
 
 .ui-page {
-	background:#2d2d2d !important;
+	background:url(../img/002.jpg) center center no-repeat #2d2d2d !important;
+	background-size:cover !important;
 }
 .ui-input-text {
 	background-color: transparent !important;
