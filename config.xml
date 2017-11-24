@@ -111,7 +111,6 @@
 
 <!--Upload de arquivos -->
 <gap:plugin name="cordova-plugin-fileopener" source="npm"  />
-<gap:plugin name="cordova-plugin-file-transfer" source="npm"  spec="~1.6.1" />
 <gap:plugin name="cordova-plugin-file" source="npm"  />
 
 <preference name="AndroidPersistentFileLocation" value="Internal" />
