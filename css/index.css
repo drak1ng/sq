@@ -56,16 +56,18 @@ body {
                                    /* offset horizontal: half of text area width */
 }
 
-.menu-container { width:100%; height:100%; position:fixed; top:0px; left:0px; background-color:rgba(0,0,0,0.7); z-index:9999; display:none; }
-.menu-container-externo { width:calc(100% - 250px); height:100%; float:left;  }
-.menu-container-caixa { width:250px; height:100%; float:right; background:#FFF; }
-.menu-container-caixa-logo	{ width:120px; height:120px; background:center center no-repeat #F0F0F0; margin:20px auto; background-size:cover; border-radius:200px; margin-top:30px; -webkit-box-shadow:inset 0 0 0 1px rgba(0,0,0,0.2); box-shadow:inset 0 0 0 1px rgba(0,0,0,0.2); }
+.menu-container { width:100%; height:100%; position:fixed; top:0px; left:0px; background-color:rgba(0,0,0,0.7); z-index:9999; display:; }
+.menu-container-externo { width:calc(100% - 200px); height:100%; float:left;  }
+.menu-container-caixa { width:200px; height:100%; float:right; background:#202020; }
+.menu-container-caixa-logo	{ width:100px; height:100px; background:url(../img/logo_sq.png) center center no-repeat; margin:20px auto; background-size:cover; margin-top:30px; }
 .menu-container-caixa-nome	{ text-align:center; font-family:'roboto'; padding-top:0px; font-size:20px; padding-bottom:30px; }
-.menu-container-caixa-menu1	{ font-family:'roboto'; margin:0px auto; width:140px; padding:12px 0px 12px 45px; background:url(../img/005.png) left center no-repeat; background-size:30px; text-transform:none; }
-.menu-container-caixa-menu2	{ font-family:'roboto'; margin:0px auto; width:140px; padding:12px 0px 12px 45px; background:url(../img/006.png) left center no-repeat; background-size:30px; text-transform:none; }
-.menu-container-caixa-menu3	{ font-family:'roboto'; margin:0px auto; width:140px; padding:12px 0px 12px 45px; background:url(../img/007.png) left center no-repeat; background-size:30px; text-transform:none; }
-.menu-container-caixa-menu4	{ font-family:'roboto'; margin:0px auto; width:140px; padding:12px 0px 12px 45px; background:url(../img/008.png) left center no-repeat; background-size:30px; text-transform:none; }
-.menu-container-caixa-menu5	{ font-family:'roboto'; margin:0px auto; width:140px; padding:12px 0px 12px 45px; background:url(../img/009.png) left center no-repeat; background-size:30px; text-transform:none; }
+.menu-container-caixa-menu1	{ font-family:'roboto'; margin:0px auto; width:140px; padding:12px 0px 12px 0px; text-align:center; text-transform:none; color:#FFF; }
+.menu-container-caixa-menu2	{ font-family:'roboto'; margin:0px auto; width:140px; padding:12px 0px 12px 0px; text-align:center; text-transform:none; color:#FFF; }
+.menu-container-caixa-menu3	{ font-family:'roboto'; margin:0px auto; width:140px; padding:12px 0px 12px 0px; text-align:center; text-transform:none; color:#FFF; }
+.menu-container-caixa-menu4	{ font-family:'roboto'; margin:0px auto; width:140px; padding:12px 0px 12px 0px; text-align:center; text-transform:none; color:#FFF; }
+.menu-container-caixa-menu5	{ font-family:'roboto'; margin:0px auto; width:140px; padding:12px 0px 12px 0px; text-align:center; text-transform:none; color:#FFF; }
+.menu-container-caixa-menu6	{ font-family:'roboto'; margin:0px auto; width:140px; padding:12px 0px 12px 0px; text-align:center; text-transform:none; color:#FFF; }
+.menu-container-caixa-menu7	{ font-family:'roboto'; margin:0px auto; width:140px; padding:12px 0px 12px 0px; text-align:center; text-transform:none; color:#FFF; }
 
 .conteudo			{ margin-top:35px; padding:20px 10px; text-transform:none; font-family:'roboto'; text-align:left; font-size:15px; font-weight:300; line-height:24px; }
 

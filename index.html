@@ -49,13 +49,14 @@
 		<div class="menu-container">
 		    <div class="menu-container-externo"></div>
 		    <div class="menu-container-caixa">
-			    <div class="menu-container-caixa-logo" style="background-image:url(img/logo_sq.png);"></div>
-			    <div class="menu-container-caixa-nome">SONO QUALITY</div>
-			    <div class="menu-container-caixa-menu1">Mensagens</div>
-			    <div class="menu-container-caixa-menu2">Orçamentos</div>
-			    <div class="menu-container-caixa-menu3">Eventos</div>
-			    <div class="menu-container-caixa-menu4">Sobre</div>
-			    <div class="menu-container-caixa-menu5">Configuração</div>
+			    <div class="menu-container-caixa-logo"></div>
+			    <div class="menu-container-caixa-menu1">Home</div>
+			    <div class="menu-container-caixa-menu2">Agenda</div>
+			    <div class="menu-container-caixa-menu3">Roteiro</div>
+			    <div class="menu-container-caixa-menu4">Clientes</div>
+			    <div class="menu-container-caixa-menu5">Pedidos</div>
+			    <div class="menu-container-caixa-menu6">Relatórios</div>
+			    <div class="menu-container-caixa-menu7">Opções</div>
 		    </div>
 		</div>
 	    <div data-role="page"></div>
@@ -65,12 +66,13 @@
 					$('.menu-container').hide();
 				});
 				
-				$('.menu-container-caixa-menu1').click(function(){ $.mobile.changePage("mensagens.html", { transition: "none", changeHash: false }); $('.menu-container').hide(); });
-				$('.menu-container-caixa-menu2').click(function(){ $.mobile.changePage("orcamentos.html", { transition: "none", changeHash: false }); $('.menu-container').hide(); });
-				$('.menu-container-caixa-menu3').click(function(){ $.mobile.changePage("eventos.html", { transition: "none", changeHash: false }); $('.menu-container').hide(); });
-				$('.menu-container-caixa-menu4').click(function(){ $.mobile.changePage("sobre.html", { transition: "none", changeHash: false }); $('.menu-container').hide(); });
-				$('.menu-container-caixa-menu5').click(function(){ $.mobile.changePage("configuracao.html", { transition: "none", changeHash: false }); $('.menu-container').hide(); });
-				
+				$(".menu-container-caixa-menu1").click(function(){ $.mobile.changePage("home.html", { transition: "fade", changeHash: false }); });
+				$(".menu-container-caixa-menu2").click(function(){ $.mobile.changePage("agenda.html", { transition: "fade", changeHash: false }); });
+				$(".menu-container-caixa-menu3").click(function(){ $.mobile.changePage("roteiro.html", { transition: "fade", changeHash: false }); });
+				$(".menu-container-caixa-menu4").click(function(){ $.mobile.changePage("clientes.html", { transition: "fade", changeHash: false }); });
+				$(".menu-container-caixa-menu5").click(function(){ $.mobile.changePage("pedidos.html", { transition: "fade", changeHash: false }); });
+				$(".menu-container-caixa-menu6").click(function(){ $.mobile.changePage("relatorio.html", { transition: "fade", changeHash: false }); });
+				$(".menu-container-caixa-menu7").click(function(){ $.mobile.changePage("opcoes.html", { transition: "fade", changeHash: false }); });
 				
 				
 				var jaFicouOffline = 0;
