@@ -56,7 +56,7 @@ body {
                                    /* offset horizontal: half of text area width */
 }
 
-.menu-container { width:100%; height:100%; position:fixed; top:0px; left:0px; background-color:rgba(0,0,0,0.7); z-index:9999; display:; }
+.menu-container { width:100%; height:100%; position:fixed; top:0px; left:0px; background-color:rgba(0,0,0,0.7); z-index:9999; display:none; }
 .menu-container-externo { width:calc(100% - 200px); height:100%; float:left;  }
 .menu-container-caixa { width:200px; height:100%; float:right; background:#202020; }
 .menu-container-caixa-logo	{ width:100px; height:100px; background:url(../img/logo_sq.png) center center no-repeat; margin:20px auto; background-size:cover; margin-top:30px; }
