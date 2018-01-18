@@ -63,7 +63,7 @@
 					$.mobile.changePage("home.html", { transition: "fade", changeHash: false });
 				});
 				
-				//$.get("http://sonoquality.projetotemporario.com.br/app_api/relatorio.php", { tipo_usuarios:tipo_usuarios, id_usuarios:id_usuarios, registrationId:registrationId }, function(data){ $('#relatorio_conteudo').html(data); });
+				$.get("http://sonoquality.projetotemporario.com.br/app_api/relatorio.php", { tipo_usuarios:tipo_usuarios, id_usuarios:id_usuarios, registrationId:registrationId }, function(data){ $('#relatorio_conteudo').html(data); });
 				
 			</script>
 		
