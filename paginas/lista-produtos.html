@@ -60,7 +60,7 @@
 				$('.topo2-menu').click(function(){ $('.menu-container').show(); });
 				
 				$("#bt_lista_produtos_voltar").click(function(){
-					$.mobile.changePage("ficha-cliente.html", { transition: "fade", changeHash: false });
+					$.mobile.changePage("ficha_cliente.html", { transition: "fade", changeHash: false });
 				});
 				
 				$.get("http://sonoquality.projetotemporario.com.br/app_api/lista-produtos.php", { tipo_usuarios:tipo_usuarios, id_usuarios:id_usuarios, id:id_cliente }, function(data){ $('#lista_produtos_conteudo').html(data); });
