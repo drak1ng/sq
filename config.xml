@@ -104,6 +104,8 @@
 
 <!--Geolocation-->
 <gap:plugin name="cordova-plugin-geolocation" source="npm"  />
+<gap:plugin name="cordova-plugin-android-permissions" source="npm"  />
+
 
 <!--Network Information-->
 <gap:plugin name="cordova-plugin-network-information" source="npm"  />
