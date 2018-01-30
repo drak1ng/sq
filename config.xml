@@ -104,7 +104,13 @@
 
 <!--Geolocation-->
 <gap:plugin name="cordova-plugin-geolocation" source="npm"  />
-
+<platform name="android">
+    <config-file target="AndroidManifest.xml" parent="/*">
+      <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+      <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+      <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    </config-file>
+</platform>
 
 <!--Network Information-->
 <gap:plugin name="cordova-plugin-network-information" source="npm"  />
