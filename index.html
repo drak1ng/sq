@@ -172,11 +172,11 @@
 				var onSuccess = function(position) {
 					window.localStorage.setItem('latitude',position.coords.latitude);
 					window.localStorage.setItem('longitude',position.coords.longitude);
-					//alert('sucesso!');
+					alert('sucesso!');
 				};
 	
 				function onError(error){
-					//alert('ERROR(' + error.code + '): ' + error.message);
+					alert('ERROR(' + error.code + '): ' + error.message);
 				}
 	
 				function informarPosicao(){
