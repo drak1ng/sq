@@ -103,14 +103,8 @@
 <preference name="DisallowOverscroll" value="true" />
 
 <!--Geolocation-->
-<gap:plugin name="cordova-plugin-geolocation" source="npm"  />
-<platform name="android">
-    <config-file target="AndroidManifest.xml" parent="/*">
-      <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-      <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-      <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-    </config-file>
-</platform>
+<gap:plugin name="cordova-plugin-geolocation" source="npm"  spec="~2.4.2"  />
+
 
 <!--Network Information-->
 <gap:plugin name="cordova-plugin-network-information" source="npm"  />
