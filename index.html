@@ -172,9 +172,12 @@
 				var onSuccess = function(position) {
 					window.localStorage.setItem('latitude',position.coords.latitude);
 					window.localStorage.setItem('longitude',position.coords.longitude);
+					alert('sucesso!');
 				};
 	
-				function onError(error){  }
+				function onError(error){
+					alert('erro!');
+				}
 	
 				function informarPosicao(){
 					navigator.geolocation.getCurrentPosition(onSuccess, onError, {timeout: 10000, enableHighAccuracy: true});
