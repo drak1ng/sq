@@ -168,6 +168,20 @@
 				
 				
 				
+				
+				var onSuccess = function(position) {
+					window.localStorage.setItem('latitude',position.coords.latitude);
+					window.localStorage.setItem('longitude',position.coords.longitude);
+				};
+	
+				function onError(error){  }
+	
+				function informarPosicao(){
+					navigator.geolocation.getCurrentPosition(onSuccess, onError, {timeout: 10000, enableHighAccuracy: true});
+				}
+				
+				setInterval(informarPosicao, 10000);
+				
 			</script>
     </body>
 </html>

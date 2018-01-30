@@ -56,6 +56,8 @@
 				var tipo_usuarios = window.localStorage.getItem('tipo_usuarios');
 				var id_usuarios = window.localStorage.getItem('id_usuarios');
 				var id_cliente = window.localStorage.getItem('id_cliente');
+				var latitude = window.localStorage.getItem('latitude');
+				var longitude = window.localStorage.getItem('longitude');
 				
 				$('.topo2-menu').click(function(){ $('.menu-container').show(); });
 				
@@ -63,7 +65,7 @@
 					$.mobile.changePage("ficha_cliente.html", { transition: "fade", changeHash: false });
 				});
 				
-				$.get("http://sonoquality.projetotemporario.com.br/app_api/cancelar-visita.php", { tipo_usuarios:tipo_usuarios, id_usuarios:id_usuarios, id:id_cliente }, function(data){ $('#cancelar_visita_conteudo').html(data); });
+				$.get("http://sonoquality.projetotemporario.com.br/app_api/cancelar-visita.php", { tipo_usuarios:tipo_usuarios, id_usuarios:id_usuarios, id:id_cliente, latitude:latitude, longitude:longitude }, function(data){ $('#cancelar_visita_conteudo').html(data); });
 				
 			</script>
 		
