@@ -110,7 +110,7 @@
       <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
       <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
     </config-file>
-</platform> 
+</platform>
 
 <!--Network Information-->
 <gap:plugin name="cordova-plugin-network-information" source="npm"  />
