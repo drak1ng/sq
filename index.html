@@ -75,7 +75,7 @@
 				$(".menu-container-caixa-menu4").click(function(){ $.mobile.changePage("clientes.html", { transition: "fade", changeHash: false }); $('.menu-container').hide(); });
 				$(".menu-container-caixa-menu5").click(function(){ $.mobile.changePage("pedidos.html", { transition: "fade", changeHash: false }); $('.menu-container').hide(); });
 				$(".menu-container-caixa-menu6").click(function(){ $.mobile.changePage("relatorio.html", { transition: "fade", changeHash: false }); $('.menu-container').hide(); });
-				$(".menu-container-caixa-menu7").click(function(){ window.localStorage.setItem('id_usuarios',''); $.mobile.changePage("login.html", { transition: "fade", changeHash: false }); });
+				$(".menu-container-caixa-menu7").click(function(){ $('.menu-container').hide(); window.localStorage.setItem('id_usuarios',''); $.mobile.changePage("login.html", { transition: "fade", changeHash: false }); });
 				
 				
 				var jaFicouOffline = 0;
