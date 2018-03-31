@@ -64,7 +64,7 @@
 					$.mobile.changePage("lista-produtos.html", { transition: "fade", changeHash: false });
 				});
 				
-				$.get("https://sistemas.sonoquality.com.br/app_api/lista-produtos-carrinho.php", { tipo_usuarios:tipo_usuarios, id_usuarios:id_usuarios, id:id_cliente, id_produto:id_produto }, function(data){ $('#lista_produtos_carrinho_conteudo').html(data); });
+				$.get("http://sistemas.sonoquality.com.br/app_api/lista-produtos-carrinho.php", { tipo_usuarios:tipo_usuarios, id_usuarios:id_usuarios, id:id_cliente, id_produto:id_produto }, function(data){ $('#lista_produtos_carrinho_conteudo').html(data); });
 				
 			</script>
 		
