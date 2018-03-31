@@ -61,7 +61,7 @@
 					if(email==""){ alert("O campo E-mail deve ser preenchido"); return false; }
 					if(senha==""){ alert("O campo Senha deve ser preenchido"); return false; }
 					
-					$.get("http://sonoquality.projetotemporario.com.br/app_api/login.php", { email:email, senha:senha }, function(data){
+					$.get("https://sistemas.sonoquality.com.br/app_api/login.php", { email:email, senha:senha }, function(data){
 						if(data=="ERRO"){
 							alert("O E-mail ou a Senha utilizados não são válidos");
 						}else{

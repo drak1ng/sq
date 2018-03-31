@@ -66,7 +66,7 @@
 					$.mobile.changePage("lista-produtos-carrinho.html", { transition: "fade", changeHash: false });
 				});
 				
-				$.get("http://sonoquality.projetotemporario.com.br/app_api/lista-produtos-carrinho-indeciso.php", { tipo_usuarios:tipo_usuarios, id_usuarios:id_usuarios, id:id_cliente, id_produto:id_produto, latitude:latitude, longitude:longitude }, function(data){ $('#lista_produtos_carrinho_indeciso_conteudo').html(data); });
+				$.get("https://sistemas.sonoquality.com.br/app_api/lista-produtos-carrinho-indeciso.php", { tipo_usuarios:tipo_usuarios, id_usuarios:id_usuarios, id:id_cliente, id_produto:id_produto, latitude:latitude, longitude:longitude }, function(data){ $('#lista_produtos_carrinho_indeciso_conteudo').html(data); });
 				
 			</script>
 		

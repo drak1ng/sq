@@ -65,7 +65,7 @@
 					$.mobile.changePage("ficha_cliente.html", { transition: "fade", changeHash: false });
 				});
 				
-				$.get("http://sonoquality.projetotemporario.com.br/app_api/cancelar-visita.php", { tipo_usuarios:tipo_usuarios, id_usuarios:id_usuarios, id:id_cliente, latitude:latitude, longitude:longitude }, function(data){ $('#cancelar_visita_conteudo').html(data); });
+				$.get("https://sistemas.sonoquality.com.br/app_api/cancelar-visita.php", { tipo_usuarios:tipo_usuarios, id_usuarios:id_usuarios, id:id_cliente, latitude:latitude, longitude:longitude }, function(data){ $('#cancelar_visita_conteudo').html(data); });
 				
 			</script>
 		
