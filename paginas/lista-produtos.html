@@ -57,10 +57,17 @@
 				var id_usuarios = window.localStorage.getItem('id_usuarios');
 				var id_cliente = window.localStorage.getItem('id_cliente');
 				
+				var voltar_tipo = 0;
+				
 				$('.topo2-menu').click(function(){ $('.menu-container').show(); });
 				
 				$("#bt_lista_produtos_voltar").click(function(){
-					$.mobile.changePage("ficha_cliente.html", { transition: "fade", changeHash: false });
+					if(voltar_tipo==0){
+						$.mobile.changePage("ficha_cliente.html", { transition: "fade", changeHash: false });
+					}else{
+						$('.botoes-produtos').show();
+						$('.conteudo-produtos').hide();
+					}
 				});
 				
 				$.get("http://sistemas.sonoquality.com.br/app_api/lista-produtos.php", { tipo_usuarios:tipo_usuarios, id_usuarios:id_usuarios, id:id_cliente }, function(data){ $('#lista_produtos_conteudo').html(data); });
