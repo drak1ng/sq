@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap = "http://phonegap.com/ns/1.0"
-	id        = "br.com.webside.sonoquality"
-	versionCode="107" 
-	version   = "1.0.7">
+	id        = "br.com.sonoquality"
+	versionCode="108" 
+	version   = "1.0.8">
 	<name>Sono Quality</name>
 	<description>
 		Sono Quality
 	</description>
 
-	<author href="http://webside.com.br" email="contato@webside.com.br">
-		Webside
+	<author href="http://sonoquality.com.br" email="contato@sonoquality.com.br">
+		SonoQuality
 	</author>
 
 <icon src="icon.png" />
