@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap = "http://phonegap.com/ns/1.0"
-	id        = "br.com.sonoquality"
+	id        = "br.com.sonoquality.salesmanager"
 	versionCode="108" 
 	version   = "1.0.8">
-	<name>Sono Quality</name>
+	<name>Sales Manager</name>
 	<description>
-		Sono Quality
+		Sales Manager
 	</description>
 
 	<author href="http://sonoquality.com.br" email="contato@sonoquality.com.br">
