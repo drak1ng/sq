@@ -162,7 +162,10 @@
 				}
 				
 				document.addEventListener("backbutton", function(e){
-					$.mobile.changePage("home.html", { transition: "none", changeHash: false });
+					var id_usuarios = window.localStorage.getItem('id_usuarios');
+					if(id_usuarios!="" && id_usuarios!=null){
+						$.mobile.changePage("home.html", { transition: "none", changeHash: false });
+					}
 				    e.preventDefault();
 				}, false);
 				

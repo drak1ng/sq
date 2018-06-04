@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap = "http://phonegap.com/ns/1.0"
-	id        = "br.com.sonoquality.salesmanager"
-	versionCode="108" 
-	version   = "1.0.8">
+	id        = "br.com.webside.sonoquality"
+	versionCode="109" 
+	version   = "1.0.9">
 	<name>Sales Manager</name>
 	<description>
 		Sales Manager
