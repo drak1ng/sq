@@ -163,6 +163,8 @@ h1 {
 	z-index: 999;
 }
 
+.topo i	{ font-size:36px; margin-top:-10px; }
+
 .topo .logotipo {
 	background:#ABCE43;
 	text-align:center;
