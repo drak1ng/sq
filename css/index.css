@@ -163,7 +163,8 @@ h1 {
 	z-index: 999;
 }
 
-.topo i	{ font-size:36px; margin-top:-10px; }
+.topo i						{ font-size:36px; margin-top:-10px; }
+.topo .fa-chevron-left		{ margin-top:-8px; }
 
 .topo .logotipo {
 	background:#ABCE43;
