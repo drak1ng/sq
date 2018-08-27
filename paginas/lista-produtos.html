@@ -57,13 +57,19 @@
 				var id_usuarios = window.localStorage.getItem('id_usuarios');
 				var id_cliente = window.localStorage.getItem('id_cliente');
 				
+				var pgPeditos = window.localStorage.getItem('pgPeditos');
+				
 				var voltar_tipo = 0;
 				
 				$('.topo2-menu').click(function(){ $('.menu-container').show(); });
 				
 				$("#bt_lista_produtos_voltar").click(function(){
 					if(voltar_tipo==0){
-						$.mobile.changePage("ficha_cliente.html", { transition: "fade", changeHash: false });
+						if(pgPeditos=="Pendentes"){
+							$.mobile.changePage("ficha_cliente_pendentes.html", { transition: "fade", changeHash: false });
+						}else{
+							$.mobile.changePage("ficha_cliente.html", { transition: "fade", changeHash: false });
+						}
 					}else{
 						$('.botoes-produtos').show();
 						$('.item-categorias').show();
