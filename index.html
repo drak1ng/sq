@@ -56,6 +56,7 @@
 			    <div class="menu-container-caixa-menu3">Roteiro</div>
 			    <!--<div class="menu-container-caixa-menu4">Clientes</div>-->
 			    <div class="menu-container-caixa-menu5">Pedidos</div>
+			    <div class="menu-container-caixa-menu8">Recusados</div>
 			    <!--<div class="menu-container-caixa-menu6">Relatórios</div>-->
 			    <div class="menu-container-caixa-menu7">Sair</div>
 		    </div>
@@ -76,6 +77,7 @@
 				$(".menu-container-caixa-menu5").click(function(){ $.mobile.changePage("pedidos.html", { transition: "fade", changeHash: false }); $('.menu-container').hide(); });
 				$(".menu-container-caixa-menu6").click(function(){ $.mobile.changePage("relatorio.html", { transition: "fade", changeHash: false }); $('.menu-container').hide(); });
 				$(".menu-container-caixa-menu7").click(function(){ $('.menu-container').hide(); window.localStorage.setItem('id_usuarios',''); $.mobile.changePage("login.html", { transition: "fade", changeHash: false }); });
+				$(".menu-container-caixa-menu8").click(function(){ $.mobile.changePage("pedidos-pendentes.html", { transition: "fade", changeHash: false }); $('.menu-container').hide(); });
 				
 				
 				var jaFicouOffline = 0;
